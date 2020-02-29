@@ -62,7 +62,7 @@
  }
 
  .box{
-    height: 30px;
+    padding: 10px 0;
     width: 150px;
     background-color: chartreuse;
     border-radius: 40px;
