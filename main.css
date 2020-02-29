@@ -8,6 +8,7 @@
 
 .header{
     display: flex;
+    justify-content: center;
 
 }
 
@@ -19,6 +20,17 @@
     width: 500px;
     height: 30px;
 }
+
+.srcBar{
+
+    position: relative;
+}
+
+.xButton{
+
+    position: absolute;
+}
+
  .cart{
 
     width: 20px;
@@ -37,3 +49,50 @@
     list-style: none;
     justify-content: space-between;
  }
+
+ .data-container{
+
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 20px;
+    
+    
+ }
+
+ .box{
+    height: 30px;
+    width: 150px;
+    background-color: chartreuse;
+    border-radius: 40px;
+    
+ }
+
+ #menuBarOne{
+
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+ }
+
+ #grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+  
+  .card {
+    width: calc(25% - 32px);
+    margin-left: 16px;
+    margin-right: 16px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+
+  .card-image {
+      background-size: cover;
+      height: 200px;
+  }
+
