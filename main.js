@@ -5,6 +5,7 @@ const gridItems = items.results.map((item) => {
         title: item.title,
         image: item.Images[0].url_fullxfull,
         shopName: item.Shop.shop_name,
+        review: 4.0,
     }
 })
 
@@ -12,9 +13,15 @@ const gridList = gridItems.map((item) => {
     return `
         <div class="card">
             <div>
+            <div class = "product-icon-circle">
+            <img class="heart"  src="assets/heart.png" />
+            </div>
                 <div class="card-image" style="background-image: url(${item.image})"></div>
                 <h2>${ item.title }</h2>
                 <span>${item.shopName}</span>
+                <div>
+                <div class="Stars" style="--rating: ${item.review};" aria-label="Rating of this product is 4.0 out of 5."></div>
+                </div>
             </div>
         </div>
         
