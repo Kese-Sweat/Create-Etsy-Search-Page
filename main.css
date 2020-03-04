@@ -89,7 +89,11 @@
 
   width: 30%;  
   border-right: 1px;
-  background-color: crimson;
+  background-color: white
+}
+
+.container{
+  display: flex;
 }
 
  #grid {
