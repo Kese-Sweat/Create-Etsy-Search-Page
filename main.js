@@ -22,7 +22,7 @@ const gridList = gridItems.map((item) => {
 document.querySelector('#grid').innerHTML = gridList;
 
 
-const topMenuBar = ['Jewelry & Accessories', 'Clothing & Shoes', 'Home & Living', 'Wedding & Party', 'Toys & Entertainment', 'Art & Collectibles', 'Craft Supplies', 'Vintage, Gifts']
+const topMenuBar = ['Jewelry & Accessories', 'Clothing & Shoes', 'Home & Living', 'Wedding & Party', 'Toys & Entertainment', 'Art & Collectibles', 'Craft Supplies', 'Vintage Gifts']
 
 const categoryBar = topMenuBar.map(item =>{
     return`
@@ -32,3 +32,5 @@ const categoryBar = topMenuBar.map(item =>{
 }).join('')
 
 document.querySelector('#menuBarOne').innerHTML= categoryBar
+
+

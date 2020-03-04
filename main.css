@@ -8,13 +8,16 @@
 
 .header{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    
 
 }
 
 .etsy-logo{
 
     color:#F99468 ;
+    font-size: 40px;
 }
 
 .round{
