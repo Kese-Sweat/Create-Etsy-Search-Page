@@ -6,11 +6,13 @@
 
 .parent{
   display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
     
 
@@ -26,18 +28,21 @@
 
     width: 100%;
     border-radius: 15px;
-    width: 500px;
-    height: 30px;
+    width: 1150px;
+    height: 35px;
 }
 
 .srcBar{
 
     position: relative;
+    margin-right:20px;
 }
 
 .xButton{
 
     position: absolute;
+    right: 10px;
+    top: 5px;
 }
 
  .cart{
@@ -66,13 +71,13 @@
     justify-content: space-evenly;
     text-align: center;
     margin: 20px;
-    
+    padding-right: 150px;
     
  }
 
  .box{
     padding: 10px 0;
-    width: 150px;
+    width: 125px;
     background-color: #F99468;
     border-radius: 40px;
     
@@ -81,7 +86,7 @@
  #menuBarOne{
 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     list-style: none;
  }
 
