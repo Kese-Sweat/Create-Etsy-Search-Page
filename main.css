@@ -12,8 +12,8 @@
 
 .header{
     display: flex;
-    justify-content: center;
-    width: 100%;
+    justify-content: start;
+    margin: 10px;
     
 
 }
@@ -27,9 +27,9 @@
 .round{
 
     width: 100%;
-    border-radius: 15px;
+    border-radius: 30px;
     width: 1150px;
-    height: 35px;
+    height: 45px;
 }
 
 .srcBar{
@@ -55,6 +55,7 @@
 
     display: flex;
     list-style: none;
+    padding-left: 30px;
  }
 
  .categories{
@@ -99,6 +100,28 @@
 
 .container{
   display: flex;
+}
+
+.sc1{
+
+  padding-bottom: 5px;
+  font-size: 13px;
+  
+}
+
+.scB{
+  background-color: transparent;
+  border: none;
+}
+
+.colList{
+
+  font-size: 13px;
+  padding-bottom: 5px;
+}
+
+.colHdr{
+  font-size:  14px;
 }
 
  #grid {
