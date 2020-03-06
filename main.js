@@ -31,7 +31,7 @@ const gridList = gridItems.map((item) => {
                 <div>
                 <div class="Stars" style="--rating: ${item.review};" aria-label="Rating of this product is 4.0 out of 5."></div>
                 </div>
-                <span>${item.price}</span>
+                <span>$${item.price}</span>
                 
             </div>
         </div>
